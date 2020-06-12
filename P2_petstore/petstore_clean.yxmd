@@ -1,0 +1,722 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="ADDRESS" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="STATE" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="ZIP" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="January" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="February" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="March" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="April" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="May" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="June" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="July" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="August" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="September" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="October" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="November" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="December" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>p2-wy-demographic-data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="County" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Land Area" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Households with Under 18" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Population Density" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="Total Families" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">Z:\Desktop\Project\project_2_petstore\p2-partially-parsed-wy-web-scrape.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>p2-partially-parsed-wy-web-scrape.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City|County" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
+            <Field name="2014 Estimate" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
+            <Field name="2010 Census" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
+            <Field name="2000 Census" size="254" source="File: Z:\Desktop\Project\project_2_petstore\p2-partially-parsed-wy-web-scrape.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="ZIP" selected="True" />
+            <Field field="January" selected="True" />
+            <Field field="February" selected="True" />
+            <Field field="March" selected="True" />
+            <Field field="April" selected="True" />
+            <Field field="May" selected="True" />
+            <Field field="June" selected="True" />
+            <Field field="July" selected="True" />
+            <Field field="August" selected="True" />
+            <Field field="September" selected="True" />
+            <Field field="October" selected="True" />
+            <Field field="November" selected="True" />
+            <Field field="December" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NAME" size="9" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ADDRESS" size="28" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="V_String" />
+            <Field name="CITY" size="12" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="STATE" size="2" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="String" />
+            <Field name="ZIP" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="January" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="February" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="March" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="April" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="May" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="June" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="July" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="August" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="September" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="October" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="November" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+            <Field name="December" source="File: Z:\Desktop\Project\project_2_petstore\p2-2010-pawdacity-monthly-sales-p2-2010-pawdacity-monthly-sales.csv" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="162" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="City" selected="True" />
+            <Field field="County" selected="True" />
+            <Field field="Land Area" selected="True" />
+            <Field field="Households with Under 18" selected="True" />
+            <Field field="Population Density" selected="True" />
+            <Field field="Total Families" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="17" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="V_String" />
+            <Field name="County" size="11" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="String" />
+            <Field name="Land Area" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Households with Under 18" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="Int16" />
+            <Field name="Population Density" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="Double" />
+            <Field name="Total Families" source="File: Z:\Desktop\Project\project_2_petstore\p2-wy-demographic-data.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="258" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="CITY" />
+          </KeyFields>
+          <DataFields>
+            <Field field="NAME" selected="False" />
+            <Field field="ADDRESS" selected="False" />
+            <Field field="CITY" selected="False" />
+            <Field field="STATE" selected="False" />
+            <Field field="ZIP" selected="False" />
+            <Field field="January" selected="True" />
+            <Field field="February" selected="True" />
+            <Field field="March" selected="True" />
+            <Field field="April" selected="True" />
+            <Field field="May" selected="True" />
+            <Field field="June" selected="True" />
+            <Field field="July" selected="True" />
+            <Field field="August" selected="True" />
+            <Field field="September" selected="True" />
+            <Field field="October" selected="True" />
+            <Field field="November" selected="True" />
+            <Field field="December" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="366" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="CITY" action="GroupBy" rename="CITY" />
+            <SummarizeField field="Value" action="Sum" rename="Total Pawdacity Sales" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="City" selected="True" />
+            <SelectField field="Land Area" selected="True" />
+            <SelectField field="Households with Under 18" selected="True" type="Double" size="8" />
+            <SelectField field="Population Density" selected="True" />
+            <SelectField field="Total Families" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="138" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([City|County])</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>City|County</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-06-09 20:03:56</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-06-09 20:03:56</StartDate>
+              <EndDate>2020-06-09 20:03:56</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([City|County])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="222" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>City|County</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>City|County</RootName>
+          <Delimeters value="?|" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ReplaceChar([2010 Census], '&lt;td&gt;/,', &quot;&quot;)" field="2010 Census" size="254" type="V_String" />
+            <FormulaField expression="Left([2010 Census], 5)" field="2010 Census" size="254" type="V_String" />
+            <FormulaField expression="Replace([2010 Census], 'su', &quot;&quot;)" field="2010 Census" size="254" type="V_String" />
+            <FormulaField expression="Replace([2010 Census], 's', '')" field="2010 Census" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2010 Census = ReplaceChar([2010 Census], '&lt;td&gt;/,', "")
+2010 Census = Left([2010 ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="414" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="City|County" selected="False" />
+            <SelectField field="2014 Estimate" selected="False" />
+            <SelectField field="2010 Census" selected="True" type="Double" size="8" />
+            <SelectField field="2000 Census" selected="False" />
+            <SelectField field="City|County1" selected="True" rename="City" />
+            <SelectField field="City|County2" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="498" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"City"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+        <Position x="618" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <JoinByRecPos value="False" />
+          <JoinFields>
+            <JoinInfo connection="#1">
+              <Field field="CITY" />
+            </JoinInfo>
+            <JoinInfo connection="#2">
+              <Field field="City" />
+            </JoinInfo>
+            <JoinInfo connection="#3">
+              <Field field="City" />
+            </JoinInfo>
+          </JoinFields>
+          <CartesianMode>Error</CartesianMode>
+          <OutputJoinOnly value="False" />
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Input_#1_Total Pawdacity Sales" selected="True" />
+                <SelectField field="Input_#2_Land Area" selected="True" />
+                <SelectField field="Input_#2_Households with Under 18" selected="True" />
+                <SelectField field="Input_#2_Population Density" selected="True" />
+                <SelectField field="Input_#2_Total Families" selected="True" />
+                <SelectField field="Input_#3_2010 Census" selected="True" />
+                <SelectField field="Input_#3_City" selected="False" rename="Input_#3_City" />
+                <SelectField field="Input_#1_CITY" selected="True" />
+                <SelectField field="Input_#2_City" selected="False" rename="Input_#2_City" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="678" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>!IsNull([Total Pawdacity Sales])</Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>Total Pawdacity Sales</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2020-06-09 21:32:02</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2020-06-09 21:32:02</StartDate>
+              <EndDate>2020-06-09 21:32:02</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([Total Pawdacity Sales])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="762" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Total Pawdacity Sales" action="Sum" rename="Sum_Total Pawdacity Sales" />
+            <SummarizeField field="Land Area" action="Sum" rename="Sum_Land Area" />
+            <SummarizeField field="Households with Under 18" action="Sum" rename="Sum_Households with Under 18" />
+            <SummarizeField field="Population Density" action="Sum" rename="Sum_Population Density" />
+            <SummarizeField field="Total Families" action="Sum" rename="Sum_Total Families" />
+            <SummarizeField field="2010 Census" action="Sum" rename="Sum_2010 Census" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="786" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">Z:\Desktop\Project\project_2_petstore\clean_data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>clean_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="690" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="Land Area" selected="True" />
+            <SelectField field="Households with Under 18" selected="True" />
+            <SelectField field="Population Density" selected="True" />
+            <SelectField field="Total Families" selected="True" />
+            <SelectField field="Total Pawdacity Sales" selected="True" />
+            <SelectField field="2010 Census" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="846" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\linchen\AppData\Local\Temp\Engine_2276_3782e5df1bc04c048c80a5101b7a4f5f_\Engine_2752_1374477bb7d74d3b87bf286469df5e40_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="13" Connection="Output26" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="True" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>petstore_clean</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
